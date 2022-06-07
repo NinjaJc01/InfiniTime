@@ -27,7 +27,7 @@ namespace Pinetime::Applications::Screens {
     lv_obj_t* btnPlayPause;
     lv_obj_t* txtPlayPause;
     lv_task_t* taskRefresh;
-    Widgets::Counter minuteCounter = Widgets::Counter(0, 99);
+    Widgets::Counter minuteCounter = Widgets::Counter(0, 99); //99 Minutes uses both digits
     Widgets::Counter secondCounter = Widgets::Counter(0, 59);
   };
 }
